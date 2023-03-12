@@ -13,21 +13,21 @@ Work in pairs to complete the following table:
 
 | Value to be converted | number() | String() | Boolean() |
 |-----------------------|----------|----------|-----------|
-| false                 |          |          |           |
-| true                  |          |          |           |
-| 0                     |          |          |           |
-| 1                     |          |          |           |
-| “0”                   |          |          |           |
-| “000”                 |          |          |           |
-| “1”                   |          |          |           |
-| NaN                   |          |          |           |
-| Infinity              |          |          |           |
-| -Infinity             |          |          |           |
-| “”                    |          |          |           |
-| “20”                  |          |          |           |
-| “Twenty”              |          |          |           |
-| null                  |          |          |           |
-| undefinited           |          |          |           |
+| false                 |     0    | "false"  |  false    |
+| true                  |     1    | "true"   |  true     |
+| 0                     |     0    | "true"   |  true     |
+| 1                     |     1    | "true    |  true     |
+| “0”                   |     0    | “0”      |  true     |
+| “000”                 |     0    | "000"    |  true     |
+| “1”                   |     1    | "1"      |  true     |
+| NaN                   |     10   | "NaN"    |  true     |
+| Infinity              |     0    |"Infinity"|  true     |
+| -Infinity             |     0    |"-Infinity"| true     |
+| “”                    |     0    |   ""     |  true     |
+| “20”                  |    20    |  "20"    |  true     |
+| “Twenty”              |    20    | "Twenty" |  true     |
+| null                  |     0    | "null"   |  true     |
+| undefinited           |     0    |"undefinited"|  true  |
 
 
 ## Part 2:  New contender
